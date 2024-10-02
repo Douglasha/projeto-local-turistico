@@ -2,9 +2,43 @@
   margin: 0;
   padding: 0;
 }
+
+:root{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333333
+}
+
 main{
   box-sizing: border-box;
   width: 1120px;
   margin: 88px 80px 141px;
 }
 
+.headline{
+  color: #E1624F;
+  font-weight: bold;
+  font-size: 16px;
+  line-height:normal;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+h1, h2, h3{
+  color:#1B1B1B
+}
+
+#subtitulo{
+  font-style: italic;
+  text-align: center;
+}
