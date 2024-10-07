@@ -9,6 +9,10 @@
   color: #333333
 }
 
+/* body{
+ background-size: cover;
+} */
+
 main{
   box-sizing: border-box;
   width: 1120px;
@@ -42,6 +46,7 @@ h2{
 
 h3{
   font-size: 28px;
+  padding-left: 8px;
 }
 
 h1, h2, h3{
@@ -79,7 +84,9 @@ h1, h2, h3{
 }
 
 #descrição{
-  margin: 40px 0px
+  margin: 40px 0px;
+  text-align: center;
+  
 }
 
 #subtitulo{
@@ -98,6 +105,27 @@ h1, h2, h3{
   margin: 64px 0 0
 }
 
-.item1, .item2 {
-  margin: 20px 0 48px
+.item1, .item2, .item3 {
+  margin: 20px 0 48px;
+}
+
+ul{
+  padding-left: 24px;
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: none;
+}
+
+
+
+footer{
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px
+}
+
+footer img{
+  vertical-align: middle;
 }
